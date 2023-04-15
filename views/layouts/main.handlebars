@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insulin Pump</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="shortcut icon" href="/images/diabete.png" type="image/x-icon" />
+    {{! BOOTSTRAP ICONS }}
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="" id="logo">
+        <img src="/images/diabete.png" alt="Insulin Pump" />
+      </a>
+      <ul>
+        <li>
+          <a href="/">Insulin Pump</a>
+        </li>
+        {{!  URL's after authentication  }}
+        {{!-- {{#if session.userid}} --}}
+        <li>
+          <a href="/notes">Notes</a>
+        </li>
+        <li>
+          <a href="/logout">Logout</a>
+        </li>
+        {{!-- {{else}} --}}
+        <li>
+          <a href="/login">Login</a>
+        </li>
+        <li>
+          <a href="/register">Register</a>
+        </li>
+        {{!-- {{/if}} --}}
+      </ul>
+    </nav>
+
+    <div class="container">
+
+      {{{body}}}
+
+    </div>
+
+    <footer class="footer">
+      <p><span>Insulin Pump</span> &copy; 2023</p>
+    </footer>
+  </body>
+</html>

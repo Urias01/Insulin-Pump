@@ -8,6 +8,9 @@ const app = express();
 
 const conn = require('./db/conn');
 
+/* Import Routes  */
+const authRoutes = require('./routes/AuthRoutes');
+
 /* Template Engine */
 app.engine('handlebars', exphbs.engine());
 app.set('view engine', 'handlebars');
@@ -49,6 +52,9 @@ app.use((req, res, next) => {
     }
     next();
 });
+
+/* Routes */
+app.use('/', authRoutes);
 
 conn
     .sync()

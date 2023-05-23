@@ -10,6 +10,7 @@ const conn = require('./db/conn');
 
 /* Import Routes  */
 const authRoutes = require('./routes/AuthRoutes');
+const InsulinRoutes = require('./routes/InsulinRoutes');
 
 /* Template Engine */
 app.engine('handlebars', exphbs.engine());
@@ -55,6 +56,7 @@ app.use((req, res, next) => {
 
 /* Routes */
 app.use('/', authRoutes);
+app.use('/insulin_pump', InsulinRoutes);
 
 conn
     .sync()

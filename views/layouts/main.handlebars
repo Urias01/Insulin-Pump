@@ -15,29 +15,29 @@
   </head>
   <body>
     <nav id="navbar">
-      <a href="" id="logo">
+      <a href="/insulin_pump" id="logo">
         <img src="/images/diabete.png" alt="Insulin Pump" />
       </a>
       <ul>
-        <li>
-          <a href="/">Insulin Pump</a>
-        </li>
         {{!  URL's after authentication  }}
-        {{!-- {{#if session.userid}} --}}
-        <li>
-          <a href="/notes">Notes</a>
-        </li>
-        <li>
-          <a href="/logout">Logout</a>
-        </li>
-        {{!-- {{else}} --}}
-        <li>
-          <a href="/login">Login</a>
-        </li>
-        <li>
-          <a href="/register">Register</a>
-        </li>
-        {{!-- {{/if}} --}}
+        {{#if session.userid}}
+          <li>
+            <a href="/insulin_pump">Insulin Pump</a>
+          </li>
+          <li>
+            <a href="/notes">Notes</a>
+          </li>
+          <li>
+            <a href="/logout">Logout</a>
+          </li>
+        {{else}}
+          <li>
+            <a href="/login">Login</a>
+          </li>
+          <li>
+            <a href="/register">Register</a>
+          </li>
+        {{/if}}
       </ul>
     </nav>
 

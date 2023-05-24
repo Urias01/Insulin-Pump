@@ -1,31 +1,18 @@
 # Insulin-Pump
-<style>
-  .mark_text {
-    background-color: grey;
-    border-radius: 2px;
-    color: white;
-  }
-</style>
-
 <section>
   
   <section>
-    <h1>Insulin Pump</h1>
-    
-    <pre>
+    <p>
       O projeto <b>Insulin Pump</b> foi uma proposta de atividade, 
       realizada a partir de levantamento de requisitos em um exercício 
       proposto de uma bomba de insulina. Onde o principal ponto era 
       organizar os requisitos e desenvolver algum programa que execute pelo menos
       uma função do seu levantamento de requisitos para a bomba
-    </pre>
+    </p>
   </section>
-  
-  <hr />
   
   <section>
     <h2>Features Básicas</h2>
-    <hr />
     <p>
       Algumas das ferramentas disponíveis para utilização da aplicação web, caso queira
       testar a lógica estabelecida para um aplicativo auxiliar de bomba de insulina.
@@ -38,7 +25,6 @@
   
   <section>
     <h2>Tecnologias Utilizadas</h2>
-    <hr />
     <ul>
       <li></li>
     </ul>
@@ -54,7 +40,6 @@
   
   <section>
     <h2>Como contribuir no projeto</h2>
-    <hr />
     <p>
       Neste caso você deverá utilizar o código disponível nesse repositório, adicionando a sua ideia
       de contribuição. Ao final você deve fazre um <span class="mark_text">pull request:</span>

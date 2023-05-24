@@ -26,13 +26,16 @@
   <section>
     <h2>Tecnologias Utilizadas</h2>
     <ul>
-      <li></li>
+      <li>[Node.js](https://nodejs.org/en)</li>
+      <li>[npm](https://www.npmjs.com/)</li>
+      <li>[Mysql && Workbench](https://www.mysql.com/)</li>
+      <li>[Git](https://git-scm.com/)</li>
+      <li>[GitHub](https://github.com/)</li>
     </ul>
   </section>
   
    <section>
     <h2>Como Usar</h2>
-    <hr />
     <ol>
       <li></li>
     </ol>
@@ -53,7 +56,6 @@
   
   <section>
     <h2>Sobre mim</h2>
-    <hr />
     <p></p>
   </section>
 </section>

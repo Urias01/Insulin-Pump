@@ -7,7 +7,6 @@ Algumas das ferramentas disponíveis para utilização da aplicação web, caso 
 - **Gráfico de aplicação:** Mostra os níveis de insulina já registrados anteriormente  
 - **Notas:** Permite a adição de anotações sobre o que ocorreu durante o dia ou aplicação de insulina
 
-## Tecnologias Utilizadas
 ## Tecnologias utilizadas
 
 - [Node.js](https://nodejs.org/en) um ambiente de execução JavaScript server side

@@ -2,17 +2,15 @@
 <section>
   
   <section>
-    <p>
       O projeto <b>Insulin Pump</b> foi uma proposta de atividade, 
       realizada a partir de levantamento de requisitos em um exercício 
       proposto de uma bomba de insulina. Onde o principal ponto era 
       organizar os requisitos e desenvolver algum programa que execute pelo menos
       uma função do seu levantamento de requisitos para a bomba
-    </p>
   </section>
   
   <section>
-    <h2>Features Básicas</h2>
+    ##Features Básicas
     <p>
       Algumas das ferramentas disponíveis para utilização da aplicação web, caso queira
       testar a lógica estabelecida para um aplicativo auxiliar de bomba de insulina.
@@ -24,25 +22,25 @@
   </section>
   
   <section>
-    <h2>Tecnologias Utilizadas</h2>
+    ##Tecnologias Utilizadas
     <ul>
-      <li>[Node.js](https://nodejs.org/en)</li>
-      <li>[npm](https://www.npmjs.com/)</li>
-      <li>[Mysql && Workbench](https://www.mysql.com/)</li>
-      <li>[Git](https://git-scm.com/)</li>
-      <li>[GitHub](https://github.com/)</li>
+      <li> [Node.js](https://nodejs.org/en) </li>
+      <li> [npm](https://www.npmjs.com/) </li>
+      <li> [Mysql && Workbench](https://www.mysql.com/) </li>
+      <li> [Git](https://git-scm.com/) </li>
+      <li> [GitHub](https://github.com/) </li>
     </ul>
   </section>
   
    <section>
-    <h2>Como Usar</h2>
+    ##Como Usar
     <ol>
       <li></li>
     </ol>
   </section>
   
   <section>
-    <h2>Como contribuir no projeto</h2>
+    ##Como contribuir no projeto
     <p>
       Neste caso você deverá utilizar o código disponível nesse repositório, adicionando a sua ideia
       de contribuição. Ao final você deve fazre um <span class="mark_text">pull request:</span>
@@ -55,7 +53,7 @@
   </section>
   
   <section>
-    <h2>Sobre mim</h2>
+    ##Sobre mim
     <p></p>
   </section>
 </section>

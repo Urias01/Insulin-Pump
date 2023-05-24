@@ -10,7 +10,7 @@
   </section>
   
   <section>
-    ##Features Básicas
+    ## Features Básicas
     <p>
       Algumas das ferramentas disponíveis para utilização da aplicação web, caso queira
       testar a lógica estabelecida para um aplicativo auxiliar de bomba de insulina.
@@ -22,7 +22,7 @@
   </section>
   
   <section>
-    ##Tecnologias Utilizadas
+    ## Tecnologias Utilizadas
     <ul>
       <li> [Node.js](https://nodejs.org/en) </li>
       <li> [npm](https://www.npmjs.com/) </li>
@@ -33,14 +33,14 @@
   </section>
   
    <section>
-    ##Como Usar
+    ## Como Usar
     <ol>
       <li></li>
     </ol>
   </section>
   
   <section>
-    ##Como contribuir no projeto
+    ## Como contribuir no projeto
     <p>
       Neste caso você deverá utilizar o código disponível nesse repositório, adicionando a sua ideia
       de contribuição. Ao final você deve fazre um <span class="mark_text">pull request:</span>
@@ -53,7 +53,7 @@
   </section>
   
   <section>
-    ##Sobre mim
+    ## Sobre mim
     <p></p>
   </section>
 </section>

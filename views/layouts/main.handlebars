@@ -49,6 +49,13 @@
 
     <div class="container">
 
+      {{! Messages }}
+      {{#if messages.message}}
+        <div class="message">
+          {{messages.message}}
+        </div>
+      {{/if}}
+
       {{{body}}}
 
     </div>

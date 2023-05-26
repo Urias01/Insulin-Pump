@@ -56,6 +56,17 @@ body {
     min-height: 80vh;
 }
 
+.message {
+    padding: 1rem;
+    color: #0A7F9A;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 2rem;
+    max-width: 60%;
+}
+
 /* Register Css */
 .form_container {
     max-width: 300px;
@@ -197,6 +208,32 @@ textarea {
     color: #333;
     background-color: #f8f8f8;
     border: 1px solid #7b7b7b;
+}
+
+.annotations {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #FF8C00;
+}
+
+.annotations .subtitle {
+    margin-left: 0;
+}
+
+.annotations .trash i {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #8a1702;
+}
+
+.annotations .trash i:hover {
+    color: #FF3333;
 }
 
 /* Footer */

@@ -1,23 +1,32 @@
 <section class="section_container">
 
   <section>
-    <form action="" method="post" class="notes_form form_container">
+    <form
+      action="/insulin_pump/notes"
+      method="post"
+      class="notes_form form_container"
+    >
       <div class="form_control">
-        <label for="note">Notes</label>
+        <label for="notes">Notes</label>
         <textarea
           type="text"
-          name="note"
-          id="note"
+          name="notes"
+          id="notes"
           placeholder="Make your notes"
-        >
-        </textarea>
+        ></textarea>
       </div>
       <input type="submit" class="btn" value="Send" />
     </form>
   </section>
 
-  <section>
+  {{#each notes}}
+    <section class="annotations">
+      <h2 class="subtitle">Notes: </h2>
+      <p>{{this.notes}}
+        <a href="/insulin_pump/notes/delete/{{this.id}}" class="trash"><i
+            class="bi bi-trash"
+          ></i></a></p>
 
-  </section>
-
+    </section>
+  {{/each}}
 </section>

@@ -118,6 +118,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .title {
@@ -132,12 +133,24 @@ body {
     margin-bottom: 2rem;
 }
 
+.last_application p {
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #0A7F9A;
+}
+
 .subtitle {
     font-size: 1.4rem;
     font-weight: 700;
     margin: .8rem auto;
     text-align: center;
     color: #FF8C00;
+}
+
+.chart {
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #53dbfa;
 }
 
 .btn_container {
@@ -158,6 +171,32 @@ body {
 .btn_notes:hover {
     font-weight: 700;
     box-shadow: 5px 5px 5px #723f01;
+}
+
+.notes_form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.notes_form .form_control label {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    color: #FF8C00;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    color: #333;
+    background-color: #f8f8f8;
+    border: 1px solid #7b7b7b;
 }
 
 /* Footer */

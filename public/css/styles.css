@@ -1,9 +1,11 @@
 * {
     color: #fff;
+    font-family: 'Noto Sans Mono', monospace;
 }
 
 body {
     background-color: #0099BC;
+    font-family: 'Noto Sans Mono', monospace;
 }
 
 /* Navbar */
@@ -108,6 +110,53 @@ body {
 
 .form_control input::placeholder {
     color: #7b7b7b;
+}
+
+/* Content */
+.section_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #FF8C00;
+}
+
+.last_application {
+    margin-bottom: 2rem;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: .8rem auto;
+    text-align: center;
+    color: #FF8C00;
+}
+
+.btn_container {
+    margin-top: 3rem;
+}
+
+.btn_notes {
+    padding: .8rem 1.3rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: .5s;
+    cursor: pointer;
+    color: #fff;
+    background-color: #FF8C00;
+}
+
+.btn_notes:hover {
+    font-weight: 700;
+    box-shadow: 5px 5px 5px #723f01;
 }
 
 /* Footer */

@@ -88,4 +88,9 @@ module.exports = class AuthController {
             res.redirect('/insulin_pump');
         });
     }
+
+    static async logout(req, res) {
+        req.session.destroy();
+        res.redirect('/login');
+    }
 }

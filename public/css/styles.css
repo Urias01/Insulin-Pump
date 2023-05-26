@@ -150,6 +150,7 @@ body {
     font-size: 1rem;
     transition: .5s;
     cursor: pointer;
+    text-decoration: none;
     color: #fff;
     background-color: #FF8C00;
 }

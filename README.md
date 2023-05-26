@@ -18,7 +18,7 @@ Algumas das ferramentas disponíveis para utilização da aplicação web, caso 
 
 ## Como contribuir no projeto
 
-Neste caso você deverá utilizar o código disponível nesse repositório, adicionando a sua ideia de contribuição. Ao final você deve fazre um ```pull request```:
+Neste caso você deverá utilizar o código disponível nesse repositório, adicionando a sua ideia de contribuição. Ao final você deve fazer um ```pull request```:
 
 1. Instale as ferramentas descritas em Tecnologias utilizadas.
 2. Clone esse repositório na sua máquina utilizando ```git clone  https://github.com/Urias01/Insulin-Pump.git ```

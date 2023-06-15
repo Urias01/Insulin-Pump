@@ -12,7 +12,7 @@ Algumas das ferramentas disponíveis para utilização da aplicação web, caso 
 - [Node.js](https://nodejs.org/en) um ambiente de execução JavaScript server side
 - [npm](https://www.npmjs.com/) gerenciador de pacotes
 - [Mysql && Workbench](https://www.mysql.com/) banco de dados utilizado no projeto
-- [Git](https://git-scm.com/) ferramenta para vercionamento de código do projeto
+- [Git](https://git-scm.com/) ferramenta para versionamento de código do projeto
 - [GitHub](https://github.com/) hospedagem do repositório do projeto
 
 
